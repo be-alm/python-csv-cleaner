@@ -17,5 +17,5 @@ How to run:
 
 python3 src/clean_data.py data/sample_data.csv
 
-Output
+Output:
 The script will generate a cleaned file called cleaned_sample_data.csv.
