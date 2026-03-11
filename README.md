@@ -1,10 +1,21 @@
 Project: CSV Data Cleaning Automation
 
-Description:
-This Python tool automatically cleans messy spreadsheet data. It removes duplicates, deletes empty rows, standardizes column names, and exports a clean dataset.
+Overview:
+This Python script cleans messy CSV files automatically. It removes duplicate rows, deletes empty rows, and standardizes column names so the dataset is easier to analyze.
 
-Typical use case:
-Businesses often receive messy CSV exports from CRMs or forms. This script automates the cleaning process and prepares the data for analysis.
+Features:
+- Removes duplicate records
+- Deletes empty rows
+- Standardizes column names
+- Exports a cleaned CSV file
 
 Technologies:
-Python, pandas.
+- Python
+- pandas
+
+How to run:
+
+python3 src/clean_data.py data/sample_data.csv
+
+Output
+The script will generate a cleaned file called cleaned_sample_data.csv.
