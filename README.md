@@ -13,6 +13,10 @@ Technologies:
 - Python
 - pandas
 
+Installation:
+
+python3 -m pip install -r requirements.txt
+
 How to run:
 
 python3 src/clean_data.py data/sample_data.csv
